@@ -8,10 +8,13 @@
     <div class="card mb-2 text-center bg-dark">
 
       <div class="card-body text-white">
-        <!-- TODO  agregar imagen-->
 
-        <p class="card-text">
-          {{gif.title}}</p>
+        <img
+        [src]="gif.images.downsized_medium.url"
+        alt="gif.title"
+        class="card-img-top"
+        >
+
       </div>
 
     </div>

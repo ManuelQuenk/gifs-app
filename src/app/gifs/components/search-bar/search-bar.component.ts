@@ -24,9 +24,6 @@ export class SearchBarComponent {
 
   searchTag():void {
     const newTag = this.tagInput.nativeElement.value
-
-    if (newTag.length === 0 ) return;
-
     this.GifsService.searchTag(newTag);
     this.tagInput.nativeElement.value = ''
   }

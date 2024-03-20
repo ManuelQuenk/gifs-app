@@ -14,10 +14,10 @@ export class SidebarComponent {
     return this.GifsService.tagsHistory
   }
 
-  // getTagHistory(): void {
-  //   this.tagHistory = this.GifsService.tagsHistory
-  // }
+  searchTag( tag: string ):void {
+    this.GifsService.searchTag(tag)
+  }
+
 
 
 }
-
