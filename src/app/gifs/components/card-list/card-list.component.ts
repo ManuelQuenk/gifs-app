@@ -10,5 +10,5 @@ import { Gif } from '../../interfaces/gifs.interfaces';
 export class CardListComponent {
 
   @Input()
-  public displayGifs: Gif[] = []
+  public gifs: Gif[] = []
 }
