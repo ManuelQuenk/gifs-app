@@ -13,7 +13,6 @@ export class GifsService {
 
   constructor( private http: HttpClient ) {
     this.loadLocalStorage();
-    console.log(this.loadLocalStorage())
   }
 
   get tagsHistory() {
